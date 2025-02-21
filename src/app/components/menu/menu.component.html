@@ -1,0 +1,14 @@
+<header class="header">
+    <div class="logo">
+        <h1>MiProyectoGaming</h1>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar juegos..." [(ngModel)]="searchTerm" (input)="filtrarJuegos()">
+        <button class="search-btn">🔍</button>
+    </div>
+    <div class="user-options">
+        <button class="btn">Iniciar sesión</button>
+        <button class="btn">Registrarse</button>
+        <button class="btn">🛒</button>
+    </div>
+</header>
